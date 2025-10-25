@@ -1,4 +1,9 @@
 # DSA210_Project
-Datas are taken from Kaggle
-#
+#Motivation
+#Data source
+2 datasets are taken from kaggle
+#Data analysis
+#Findings
+#Limitations
+#What is Next?
 
