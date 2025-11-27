@@ -10,8 +10,8 @@ By successfully training an LLM for early risk assessment of CAD, the system can
 
 # Data source
 2 datasets are taken from kaggle.
-CAD.csv link: https://www.kaggle.com/datasets/saeedeheydarian/classification-of-coronary-artery-disease?resource=download
-DataClean-fullage.csv link: https://www.kaggle.com/datasets/homelysmile/datacad
+- CAD.csv link: https://www.kaggle.com/datasets/saeedeheydarian/classification-of-coronary-artery-disease?resource=download
+- DataClean-fullage.csv link: https://www.kaggle.com/datasets/homelysmile/datacad
 
 # Conclusion
 The project is still ongoing.
