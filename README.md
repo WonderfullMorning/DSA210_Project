@@ -5,6 +5,13 @@ This project is driven by the observation that complex diseases, such as Coronar
 
 The core objective is to develop a robust, data-driven framework for CAD risk prediction. This involves a comprehensive methodological approach: first, comparing and benchmarking different machine learning algorithms against each other and against the selected Large Language Model (LLM) approach for superior performance. Rigorous performance evaluation metrics will be applied across models. Furthermore, the study will conduct a comparative analysis of two distinct health datasets to ensure model generalization and robustness. The primary goal is to leverage the chosen model to perform sophisticated probabilistic risk stratification for CAD and, crucially, to identify the most influential risk factors and lifestyle variables that serve as key determinants of the disease. This will translate complex data into actionable insights for personalized preventive healthcare.
 
+#CAD Context and Definition
+
+Coronary Artery Disease (CAD) is a prevalent heart condition characterized by the buildup of atherosclerotic plaque within the arterial lumen. Blood flow impairment reduces oxygen delivery to the myocardium  (StatPearls, 2024).
+
+Citation:
+StatPearls. (2024). Coronary Artery Disease. Retrieved from https://www.ncbi.nlm.nih.gov/books/NBK564304/
+
 
 # Objectives
 
@@ -25,6 +32,27 @@ The successful execution of this project is defined by the delivery of the follo
 - CAD.csv link: https://www.kaggle.com/datasets/saeedeheydarian/classification-of-coronary-artery-disease?resource=download
 - DataClean-fullage.csv link: https://www.kaggle.com/datasets/homelysmile/datacad
 
-# Conclusion
-The project is still ongoing.
+#Datasets to use
+The columns of the first dataset:
+- Sex (Male or Female, Categorical)
+- Age (Numerical)
+- BMI (Numerical)
+- DM (Diabetes Mellitus, Yes or No, Categorical)
+- HTN (Hyper tension, Yes or no, Categorical)
+- Current Smoker (Yes or No, Categorical)
+- Ex-Smoker (Yes or No, Categorical)
+- FH (family history, Yes or No, Categorical)
+- Obesity (Yes if MBI > 25, no otherwise, Categorical)
+- CAD (Yes or No, Categorical)
+
+The columns of the second dataset:
+- Gender (M or F, Categorical)
+- Age (Numerical)
+- day_icu (Number of days spent in the Intensive Care Unit, Numerical)
+- outcome (Final clinical status, Discharge or Expiry, Categorical)
+- alchohol (0 for No, 1 for Yes, Categorical)
+- cad (0 for Absence, 1 for Presence, Categorical)
+- glucose (Blood glucose level, Numerical)
+
+
 
