@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+sklearn.model_selection
+sklearn.linear_model
+sklearn.ensemble
+sklearn.metrics
+matplotlib.pyplot
+seaborn
