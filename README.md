@@ -5,7 +5,7 @@ This project is driven by the observation that complex diseases, such as Coronar
 
 The core objective is to develop a robust, data-driven framework for CAD risk prediction. This involves a comprehensive methodological approach: first, comparing and benchmarking different machine learning algorithms against each other and against the selected Large Language Model (LLM) approach for superior performance. Rigorous performance evaluation metrics will be applied across models. Furthermore, the study will conduct a comparative analysis of two distinct health datasets to ensure model generalization and robustness. The primary goal is to leverage the chosen model to perform sophisticated probabilistic risk stratification for CAD and, crucially, to identify the most influential clinical and biometric variables that serve as key determinants of the disease. This will translate complex clinical measurements into actionable insights for diagnostic support and preventative care strategies.
 
-#CAD Context and Definition
+# CAD Context and Definition
 
 Coronary Artery Disease (CAD) is a prevalent heart condition characterized by the buildup of atherosclerotic plaque within the arterial lumen. Blood flow impairment reduces oxygen delivery to the myocardium  (StatPearls, 2024).
 
