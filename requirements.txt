@@ -4,6 +4,8 @@ scipy
 sklearn.model_selection
 sklearn.linear_model
 sklearn.ensemble
+sklearn.preprocessing
+sklearn.pipeline
 sklearn.metrics
 matplotlib.pyplot
 seaborn
