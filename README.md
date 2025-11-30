@@ -74,11 +74,13 @@ Target Harmonization: Converting the categorical target variable (CAD in the Fir
 Unit Consistency: All categorical features will undergo binary encoding. Numerical features, especially those related to blood counts (WBC, leuk_count, platelets), will be inspected for common scaling issues (e.g., reporting in thousands vs. actual count) and normalized where necessary to ensure comparable influence during modeling.
 
 # Hypothesis
-The central hypothesis guiding this research is twofold:
+The central hypotheses guiding this research are:
 
-1.Predictive Superiority: A sophisticated Large Language Model (LLM) framework, trained on complex numerical and categorical clinical data, will achieve statistically significant higher predictive performance (as measured by AUC and F1-score) in CAD risk stratification compared to traditional classification algorithms (e.g., Logistic Regression, Random Forest).
+1.Established Risk Factor Dominance: Primary established risk factors for CAD—specifically Age, Hypertension (HTN), and markers of Dyslipidemia (LDL, HDL, TG)—will exhibit the strongest individual statistical association with the presence of CAD in the primary dataset.
 
-2.Generalization and Feature Robustness: The predictive model optimized on the primary clinical dataset (CAD.csv) will maintain robust performance when tested on the secondary clinical cohort (DataClean-fullage.csv), validating the model's ability to generalize across different clinical data distributions and confirming that the identified key features (e.g., LDL, Age, DM) are consistently influential determinants of CAD risk.
+2.Functional Marker Contribution: Features representing cardiac function and metabolic stress, particularly Ejection Fraction (EF) and Fasting Blood Sugar (FBS), will be ranked among the top five features for predictive power (Feature Importance) in the final optimized model.
+
+3.Cross-Cohort Reliability: The relative ranking of feature importance for common clinical factors (Age, HTN, DM, Smoking) will show a high degree of correlation ($\ge 0.80$) between models trained and evaluated on the two distinct datasets, confirming the reliability of these factors across different patient cohorts.
 
 # Conclusion
 The project has established a strong foundation by defining a clear motivation, specific objectives, and detailed data requirements. The next crucial phase involves rigorous data cleaning, harmonization of features (particularly the target variable across datasets), and feature engineering to prepare the two clinical datasets for comparative machine learning model training. Upon completion, the project is expected to yield a high-performing and highly interpretable model that enhances diagnostic risk assessment for Coronary Artery Disease.
