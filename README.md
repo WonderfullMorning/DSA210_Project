@@ -1,6 +1,6 @@
 # DSA210_Project
 
-# Project Overwiev
+# Project Overviev
 This project is driven by the observation that complex diseases, such as Coronary Artery Disease (CAD), exhibit discernible probabilistic patterns correlated with a wide array of clinical and biometric risk markers.
 
 The core objective is to develop a robust, data-driven framework for CAD risk prediction. This involves a comprehensive methodological approach: first, comparing and benchmarking different machine learning algorithms against each other and against the selected Large Language Model (LLM) approach for superior performance. Rigorous performance evaluation metrics will be applied across models. Furthermore, the study will conduct a comparative analysis of two distinct health datasets to ensure model generalization and robustness. The primary goal is to leverage the chosen model to perform sophisticated probabilistic risk stratification for CAD and, crucially, to identify the most influential clinical and biometric variables that serve as key determinants of the disease. This will translate complex clinical measurements into actionable insights for diagnostic support and preventative care strategies.
@@ -76,9 +76,9 @@ Unit Consistency: All categorical features will undergo binary encoding. Numeric
 # Hypothesis
 The central hypotheses guiding this research are:
 
-1.LLM Predictive Superiority: A Large Language Model (LLM) based diagnostic framework will provide a statistically significant improvement in predictive performance (measured via Mean AUC) compared to traditional machine learning benchmarks (e.g., Random Forest).
+1. LLM Predictive Superiority: A Large Language Model (LLM) based diagnostic framework will provide a statistically significant improvement in predictive performance (measured via Mean AUC) compared to traditional machine learning benchmarks (Random forest, etc.).
 
-2.Cross-Cohort Reliability: The relative ranking of feature importance for common clinical factors (Age, HTN, DM, Smoking) will show a high degree of correlation ($\ge 0.80$) between models trained and evaluated on the two distinct datasets, confirming the reliability of these factors across different patient cohorts.
+2. Cross-Dataset Generalization: A machine learning model trained on primary clinical demographics will maintain a powerful predictive performance (AUC $\ge 0.70$) when evaluated against a separate, larger patient dataset, demonstrating the model's reliability across different clinical environments.
 
 Furthermore, the diagnostic process involves performing probabilistic inference to determine the presence of CAD. This is achieved by synthesizing the clinical risk factors identified during the Exploratory Data Analysis (EDA) phase with robust machine learning algorithms to facilitate accurate disease prediction.
 
