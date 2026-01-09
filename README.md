@@ -78,9 +78,7 @@ The central hypotheses guiding this research are:
 
 1.Established Risk Factor Dominance: Primary established risk factors for CAD—specifically Age, Hypertension (HTN), and markers of Dyslipidemia (LDL, HDL, TG)—will exhibit the strongest individual statistical association with the presence of CAD in the primary dataset.
 
-2.Functional Marker Contribution: Features representing cardiac function and metabolic stress, particularly Ejection Fraction (EF) and Fasting Blood Sugar (FBS), will be ranked among the top five features for predictive power (Feature Importance) in the final optimized model.
-
-3.Cross-Cohort Reliability: The relative ranking of feature importance for common clinical factors (Age, HTN, DM, Smoking) will show a high degree of correlation ($\ge 0.80$) between models trained and evaluated on the two distinct datasets, confirming the reliability of these factors across different patient cohorts.
+2.Cross-Cohort Reliability: The relative ranking of feature importance for common clinical factors (Age, HTN, DM, Smoking) will show a high degree of correlation ($\ge 0.80$) between models trained and evaluated on the two distinct datasets, confirming the reliability of these factors across different patient cohorts.
 
 # Conclusion
 The project has established a strong foundation by defining a clear motivation, specific objectives, and detailed data requirements. The next crucial phase involves rigorous data cleaning, harmonization of features (particularly the target variable across datasets), and feature engineering to prepare the two clinical datasets for comparative machine learning model training. Upon completion, the project is expected to yield a high-performing and highly interpretable model that enhances diagnostic risk assessment for Coronary Artery Disease.
