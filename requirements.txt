@@ -3,6 +3,8 @@ numpy
 scipy
 sklearn.model_selection
 sklearn.linear_model
+sklearn.neighbors
+sklearn.tree
 sklearn.ensemble
 sklearn.preprocessing
 sklearn.pipeline
