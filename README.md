@@ -80,7 +80,7 @@ The central hypotheses guiding this research are:
 
 2.Cross-Cohort Reliability: The relative ranking of feature importance for common clinical factors (Age, HTN, DM, Smoking) will show a high degree of correlation ($\ge 0.80$) between models trained and evaluated on the two distinct datasets, confirming the reliability of these factors across different patient cohorts.
 
-Also Guessing whether the patient has Cad or not based on their features explored on the Explatory Data Analysis part and Machine Learning Methods are used to predict the disease.
+Furthermore, the diagnostic process involves performing probabilistic inference to determine the presence of CAD. This is achieved by synthesizing the clinical risk factors identified during the Exploratory Data Analysis (EDA) phase with robust machine learning algorithms to facilitate accurate disease prediction.
 
 # Conclusion
 The project has established a strong foundation by defining a clear motivation, specific objectives, and detailed data requirements. The next crucial phase involves rigorous data cleaning, harmonization of features (particularly the target variable across datasets), and feature engineering to prepare the two clinical datasets for comparative machine learning model training. Upon completion, the project is expected to yield a high-performing and highly interpretable model that enhances diagnostic risk assessment for Coronary Artery Disease.
